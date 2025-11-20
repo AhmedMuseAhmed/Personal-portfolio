@@ -7,7 +7,7 @@ export const projects = [
         image: "/projects/kaafiye.jpeg",
         techStack: ["React Native", "REST API", "Firebase", "UI/UX"],
         githubLink: "https://github.com/ahmedmuseahmed/kaafiye-app",
-        liveDemo: "#",
+        liveDemo: "https://kaafiye-client.vercel.app/login",
     },
 
     {
@@ -18,7 +18,7 @@ export const projects = [
         image: "/projects/task-manager.png",
         techStack: ["React", "Go", "PostgreSQL", "JWT", "REST API"],
         githubLink: "https://github.com/AhmedMuseAhmed/task-manager-client",
-        liveDemo: "#",
+        liveDemo: "https://task-manager-client-sdjr.vercel.app/login",
     },
 
     {
@@ -29,7 +29,7 @@ export const projects = [
         image: "/projects/auth-frontend.png",
         techStack: ["React", "Global State management", "TailwindCSS"],
         githubLink: "https://github.com/AhmedMuseAhmed/auth-frontend-app",
-        liveDemo: "#",
+        liveDemo: "https://auth-frontend-app-rke7.vercel.app/",
     },
 
     {
@@ -40,7 +40,7 @@ export const projects = [
         image: "/projects/blog-app-v2.png",
         techStack: ["React", "React Router", "Firebase", "TailwindCSS"],
         githubLink: "https://github.com/ahmedmuseahmed/blog-app",
-        liveDemo: "#",
+        liveDemo: "https://blog-app-v2-koiz.vercel.app/",
     },
 
     {
@@ -51,7 +51,7 @@ export const projects = [
         image: "/projects/notes-app.png",
         techStack: ["React", "Context API", "Local Storage"],
         githubLink: "https://github.com/ahmedmuseahmed/notes-app",
-        liveDemo: "#",
+        liveDemo: "https://notes-app-wrmd.vercel.app/",
     },
 
     {
@@ -62,6 +62,6 @@ export const projects = [
         image: "/projects/quiz-app.png",
         techStack: ["React", "CSS", "Animations"],
         githubLink: "https://github.com/ahmedmuseahmed/quiz-app",
-        liveDemo: "#",
+        liveDemo: "https://quiz-app-8hhs.vercel.app/",
     },
 ];
