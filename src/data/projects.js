@@ -7,7 +7,7 @@ export const projects = [
         image: "/projects/kaafiye.jpeg",
         techStack: ["React Native", "REST API", "Firebase", "UI/UX"],
         githubLink: "https://github.com/ahmedmuseahmed/kaafiye-app",
-        liveDemo: "https://kaafiye-client.vercel.app/login",
+        liveDemo: "https://kaafiye-client.vercel.app",
     },
 
     {
@@ -18,7 +18,7 @@ export const projects = [
         image: "/projects/task-manager.png",
         techStack: ["React", "Go", "PostgreSQL", "JWT", "REST API"],
         githubLink: "https://github.com/AhmedMuseAhmed/task-manager-client",
-        liveDemo: "https://task-manager-client-sdjr.vercel.app/login",
+        liveDemo: "https://task-manager-client-sdjr.vercel.app",
     },
 
     {

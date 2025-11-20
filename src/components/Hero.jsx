@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { HiArrowDownTray, HiEnvelope } from "react-icons/hi2";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import AnimatedName from "./AnimatedName.jsx";
+
 
 
 
@@ -54,17 +56,8 @@ const Hero = () => {
                             👋 Welcome to my Portfolio
                         </motion.div>
 
-                        <motion.h1
-                            initial={{ opacity: 0, y: 20 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3 }}
-                            className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-4"
-                        >
-                            I'm{' '}
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-                                Ahmed Muse Ahmed
-                            </span>
-                        </motion.h1>
+                        <AnimatedName />
+
 
                         {/* Titles */}
                         <motion.div
@@ -73,7 +66,7 @@ const Hero = () => {
                             transition={{ delay: 0.4 }}
                             className="text-xl md:text-2xl mb-6 text-gray-600 dark:text-gray-300"
                         >
-                            💻 Full-Stack Developer skilled in frontend UX development with React and backend engineering with GoLand, PostgreSQL, JWT Auth & RESTful services
+                            Full-Stack Developer specializing in crafting clean, responsive, and modern user interfaces with React, while building fast, secure, and scalable backend systems using GoLand, PostgreSQL, JWT authentication, and RESTful API services.
                         </motion.div>
 
                         {/* Roles */}
