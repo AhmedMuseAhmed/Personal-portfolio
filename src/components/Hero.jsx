@@ -172,7 +172,7 @@ const Hero = () => {
                             </motion.a>
 
                             <motion.a
-                                href="https://twitter.com/@Ahmed18Ahmed"
+                                href="https://twitter.com/@Ahmedmuse18Ahme"
                                 target="_blank"
                                 whileHover={{ scale: 1.2, y: -5 }}
                                 className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full"
