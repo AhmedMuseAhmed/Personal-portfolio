@@ -93,17 +93,22 @@ const Hero = () => {
                                 download="Ahmed-Muse-CV.pdf"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="relative flex items-center justify-center gap-2 px-8 py-4 
+                                className="
+                                            relative overflow-hidden
+                                            flex items-center justify-center gap-2 
+                                            px-8 py-4 
                                             bg-gradient-to-r from-blue-600 to-purple-600 
-                                            text-white font-extrabold rounded-lg shadow-lg hover:shadow-xl overflow-hidden"
+                                            text-white font-bold 
+                                            rounded-lg shadow-lg hover:shadow-xl transition
+  "
                             >
-                                <span className="absolute inset-0 bg-white/1"></span>
+                                <span className="absolute inset-0 bg-white/10 pointer-events-none"></span>
 
-                                <span className="relative z-10 flex items-center gap-2">
-                                    <HiArrowDownTray size={20} />
-                                    Download CV
-                                </span>
+                                <HiArrowDownTray size={20} />
+                                <span className="relative z-10">Download CV</span>
                             </motion.a>
+
+
 
 
 
