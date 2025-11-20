@@ -2,7 +2,7 @@ import profilePic from "../assets/profile.jpg";
 import { motion } from 'framer-motion';
 import { HiArrowDownTray, HiEnvelope } from "react-icons/hi2";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 
 
@@ -169,6 +169,15 @@ const Hero = () => {
                                 className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full"
                             >
                                 <FaInstagram size={24} />
+                            </motion.a>
+
+                            <motion.a
+                                href="https://twitter.com/@Ahmed18Ahmed"
+                                target="_blank"
+                                whileHover={{ scale: 1.2, y: -5 }}
+                                className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full"
+                            >
+                                <FaTwitter size={24} />
                             </motion.a>
 
 
