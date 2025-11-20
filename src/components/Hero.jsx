@@ -2,6 +2,8 @@ import profilePic from "../assets/profile.jpg";
 import { motion } from 'framer-motion';
 import { HiArrowDownTray, HiEnvelope } from "react-icons/hi2";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+
 
 
 
@@ -98,11 +100,19 @@ const Hero = () => {
                                 download="Ahmed-Muse-CV.pdf"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold shadow-lg hover:shadow-xl transition-shadow"
+                                className="relative flex items-center justify-center gap-2 px-8 py-4 
+                                            bg-gradient-to-r from-blue-600 to-purple-600 
+                                            text-white font-extrabold rounded-lg shadow-lg hover:shadow-xl overflow-hidden"
                             >
-                                <HiArrowDownTray size={20} />
-                                Download CV
+                                <span className="absolute inset-0 bg-white/1"></span>
+
+                                <span className="relative z-10 flex items-center gap-2">
+                                    <HiArrowDownTray size={20} />
+                                    Download CV
+                                </span>
                             </motion.a>
+
+
 
 
                             <motion.button
@@ -140,6 +150,28 @@ const Hero = () => {
                             >
                                 <FaLinkedin size={24} />
                             </motion.a>
+
+                            {/* Facebook */}
+                            <motion.a
+                                href="https://facebook.com/ahmed.muse.ahmed.304755"
+                                target="_blank"
+                                whileHover={{ scale: 1.2, y: -5 }}
+                                className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full"
+                            >
+                                <FaFacebook size={24} />
+                            </motion.a>
+
+                            {/* Instagram */}
+                            <motion.a
+                                href="https://instagram.com/ahmed_muse_ahmed"
+                                target="_blank"
+                                whileHover={{ scale: 1.2, y: -5 }}
+                                className="p-3 bg-gray-200 dark:bg-gray-800 rounded-full"
+                            >
+                                <FaInstagram size={24} />
+                            </motion.a>
+
+
                         </motion.div>
                     </motion.div>
 
