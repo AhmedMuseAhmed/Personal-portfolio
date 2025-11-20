@@ -27,9 +27,9 @@ const Hero = () => {
 
             {/* Background Blobs */}
             <div className="absolute inset-0 overflow-hidden">
-                <div className="absolute top-20 left-10 w-72 h-72 bg-blue-300 dark:bg-blue-900 rounded-full mix-blend-multiply blur-3xl opacity-30 animate-blob"></div>
-                <div className="absolute top-40 right-10 w-72 h-72 bg-purple-300 dark:bg-purple-900 rounded-full mix-blend-multiply blur-3xl opacity-30 animate-blob animation-delay-2000"></div>
-                <div className="absolute bottom-10 left-1/2 w-72 h-72 bg-pink-300 dark:bg-pink-900 rounded-full mix-blend-multiply blur-3xl opacity-30 animate-blob animation-delay-4000"></div>
+                <div className="absolute top-20 left-10 w-72 h-72 bg-blue-300 dark:bg-blue-900 rounded-full mix-blend-multiply blur-3xl opacity-20 animate-blob"></div>
+                <div className="absolute top-40 right-10 w-72 h-72 bg-purple-300 dark:bg-purple-900 rounded-full mix-blend-multiply blur-3xl opacity-20 animate-blob animation-delay-2000"></div>
+                <div className="absolute bottom-10 left-1/2 w-72 h-72 bg-pink-300 dark:bg-pink-900 rounded-full mix-blend-multiply blur-3xl opacity-20 animate-blob animation-delay-4000"></div>
             </div>
 
             <div className="w-full relative z-10 px-4 sm:px-6 lg:px-8">
@@ -71,7 +71,7 @@ const Hero = () => {
                             transition={{ delay: 0.4 }}
                             className="text-xl md:text-2xl mb-6 text-gray-600 dark:text-gray-300"
                         >
-                            💻 Full-Stack Developer (React + GoLand)
+                            💻 Full-Stack Developer skilled in frontend UX development with React and backend engineering with GoLand, PostgreSQL, JWT Auth & RESTful services
                         </motion.div>
 
                         {/* Roles */}

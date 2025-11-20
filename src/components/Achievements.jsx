@@ -26,7 +26,7 @@ const Achievements = () => {
     };
 
     return (
-        <section id="achievements" ref={ref} className="py-20 px-4 bg-gray-50 dark:bg-gray-800">
+        <section id="achievements" ref={ref} className="py-20 px-4 bg-gray-50 dark:bg-gray-800 rounded-lg ">
             <div className="max-w-7xl mx-auto">
 
                 {/* Header */}

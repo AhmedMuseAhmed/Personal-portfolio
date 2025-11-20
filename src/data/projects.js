@@ -12,23 +12,23 @@ export const projects = [
 
     {
         id: 2,
-        title: "Full-Stack App (React + Go + PostgreSQL)",
+        title: "Task Manager Full-Stack App",
         description:
             "A complete CRUD system with authentication built using React for frontend, GoLand for backend API, and PostgreSQL for database.",
-        image: "/projects/fullstack.png",
+        image: "/projects/task-manager.png",
         techStack: ["React", "Go", "PostgreSQL", "JWT", "REST API"],
-        githubLink: "https://github.com/ahmedmuseahmed/fullstack-app",
+        githubLink: "https://github.com/AhmedMuseAhmed/task-manager-client",
         liveDemo: "#",
     },
 
     {
         id: 3,
-        title: "Weather App",
+        title: "Auth frontend",
         description:
-            "A modern and responsive weather app using OpenWeather API with animated UI and clean interface.",
-        image: "/projects/weather.png",
-        techStack: ["React", "API Integration", "CSS"],
-        githubLink: "https://github.com/ahmedmuseahmed/weather-app",
+            "A fully responsive, modern, and professionally designed authentication frontend built with React. Features world-class UI/UX, global state management using React Context + useReducer, and clean, scalable code architecture.",
+        image: "/projects/auth-frontend.png",
+        techStack: ["React", "Global State management", "TailwindCSS"],
+        githubLink: "https://github.com/AhmedMuseAhmed/auth-frontend-app",
         liveDemo: "#",
     },
 
@@ -37,7 +37,7 @@ export const projects = [
         title: "Blog App v2 (Auth + Protected Routes)",
         description:
             "A complete blog system with authentication, route protection, post creation, and Firebase storage.",
-        image: "/projects/blog.png",
+        image: "/projects/blog-app-v2.png",
         techStack: ["React", "React Router", "Firebase", "TailwindCSS"],
         githubLink: "https://github.com/ahmedmuseahmed/blog-app",
         liveDemo: "#",
@@ -48,7 +48,7 @@ export const projects = [
         title: "Notes App (Context API)",
         description:
             "A smooth and clean notes app using React Context API with search, dark mode, and storage.",
-        image: "/projects/notes.png",
+        image: "/projects/notes-app.png",
         techStack: ["React", "Context API", "Local Storage"],
         githubLink: "https://github.com/ahmedmuseahmed/notes-app",
         liveDemo: "#",
@@ -59,7 +59,7 @@ export const projects = [
         title: "Quiz App",
         description:
             "An interactive quiz app with animated transitions, category selection, and score tracking.",
-        image: "/projects/quiz.png",
+        image: "/projects/quiz-app.png",
         techStack: ["React", "CSS", "Animations"],
         githubLink: "https://github.com/ahmedmuseahmed/quiz-app",
         liveDemo: "#",
