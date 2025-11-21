@@ -20,10 +20,10 @@ const AnimatedName = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{
-                                duration: 0.45,
-                                delay: index * 0.12,
+                                duration: 0.8,
+                                delay: index * 0.18,
                                 repeat: Infinity,
-                                repeatDelay: 2.5,
+                                repeatDelay: 3.5,
                             }}
                         >
                             {letter}

@@ -58,6 +58,12 @@ const Hero = () => {
 
                         <AnimatedName />
 
+                        {/* SUBTITLE */}
+                        <p className="text-xl md:text-2xl font-semibold text-gray-700 dark:text-gray-300 leading-relaxed max-w-2xl mt-4">
+                            Full-Stack Developer specialized in building clean, modern UIs with React and
+                            fast, secure backend systems using Go, PostgreSQL, JWT Auth, and RESTful APIs.
+                        </p>
+
 
                         {/* Titles */}
                         <motion.div

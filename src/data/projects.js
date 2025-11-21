@@ -7,7 +7,7 @@ export const projects = [
         image: "/projects/kaafiye.jpeg",
         techStack: ["React Native", "REST API", "Firebase", "UI/UX"],
         githubLink: "https://github.com/ahmedmuseahmed/kaafiye-app",
-        liveDemo: "https://kaafiye-client.vercel.app",
+        liveDemo: "/",
     },
 
     {
